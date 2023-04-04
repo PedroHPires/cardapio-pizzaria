@@ -1,7 +1,53 @@
 @charset "UTF-8";
 body {
+    display: flex;
+    flex-direction: row;
     margin: 0%;
+    background-color: rgb(187, 187, 187);
+}
+#cont{
+    height: 100vh;
+    width: 65%;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    background-image: url(imagens/fundo.png);
+    background-size: cover;
+}
+main{
+    border-top:0.3vh solid rgb(187, 187, 187) ;
 }
 h1{
-    font-size: 7em;
+    font-size: 9vw;
+    margin: 0px;
+    line-height: 0px;
+}
+h2{
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+#imgs{
+    padding-left: 0.2vw;
+    width: 35%;
+    height: 100vh;
+}
+#coluna2{
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/fundo-pizza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+    width: 12%;
+}
+table{
+    margin: auto;
+    font-size: 2.7vw;
+    height: 70vh;
+    text-align: left;
+}
+th{
+    font-size: 3.5vw;
+    color: #FCD703;
 }
