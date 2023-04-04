@@ -14,9 +14,10 @@ body {
     background-size: cover;
 }
 main{
-    border-top:0.3vh solid rgb(187, 187, 187) ;
+    border-top:0.3vh solid #bbbbbb ;
 }
 h1{
+    display: inline;
     font-size: 9vw;
     margin: 0px;
     line-height: 0px;
@@ -42,9 +43,9 @@ h2{
     width: 12%;
 }
 table{
-    margin: auto;
+    margin-left: 19% ;
     font-size: 2.7vw;
-    height: 70vh;
+    height: 65vh;
     text-align: left;
 }
 th{
