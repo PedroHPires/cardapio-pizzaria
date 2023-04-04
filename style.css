@@ -16,10 +16,13 @@ body {
 main{
     border-top:0.3vh solid #bbbbbb ;
 }
+header{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
 h1{
     display: inline;
     font-size: 9vw;
-    margin: 0px;
     line-height: 0px;
 }
 h2{
