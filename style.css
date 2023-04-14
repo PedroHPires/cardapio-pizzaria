@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'font padrao';
+    src: url(fontes/gobold-lowplus.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     
     margin: 0%;
@@ -10,12 +16,14 @@ body {
     background-color: #bbbbbb;
 }
 #cont{
-    height: 100vh;
     width: 80%;
     text-align: center;
-    color: rgb(187, 187, 187);
+    color: #bbbbbb;
     background-image: url(imagens/fundo.png);
+    background-color: black;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
 }
 main{
     border-top:0.3vh solid #bbbbbb ;
@@ -42,7 +50,7 @@ a {
 }
 h1{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: inline;
     font-size: 7.5vh;
     line-height: 0px;
@@ -54,13 +62,12 @@ h2{
 
 #imgs{
     padding-left: 0.3vh;
-    width: 35%;
-    height: 100vh;
+    width: 25%;
 }
 #coluna2{
     width: 100%;
-    height: 100%;
-    background-image: url(imagens/fundo-pizza.jpg);
+    min-height: 100%;
+    background-image: url(imagens/fundopizza4.jpg);
     background-size: cover;
     background-position: center;
 
@@ -71,6 +78,7 @@ h2{
 table {
     width: 100%;
     border-collapse: collapse;
+    font-family: 'font padrao';
 }
 th, td {
     text-align: left;
@@ -79,6 +87,24 @@ th, td {
 th {
     text-align: center;
     color: #FCD703;
+    font-size: 1.7em;
+}
+td{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+td.sabor {
+    font-family: 'font padrao';
+    color: white;
+}
+td.preco {
+    text-align: center;
+    color: #FF7B49;
+    font-family: 'font padrao';
+}
+strong{
+    color: white;
+    font-weight: normal;
 }
 @media screen and (max-width: 767px) {
     table {
