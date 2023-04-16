@@ -106,6 +106,7 @@ td.preco {
 strong{
     color: white;
     font-weight: normal;
+    font-family: 'font padrao';
 }
 @media screen and (max-width: 767px) {
     table {
